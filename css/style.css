@@ -12,3 +12,16 @@
     bottom: 0;
     width: 100%;
 }
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin-top: 20px;
+    }
+    .hero {
+        padding: 50px 0;
+    }
+    .footer {
+        position: static;
+    }
+}
